@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency Exchange</string>
+    <string name="value_label">Value</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="done_label">Done</string>
+    <string name="favorite_currencies_label">Select your favorite currencies</string>
+    <string name="currency_settings_label">Currency Settings</string>
+    <string name="sample_app_description">Merlin Jobs Android Devs Candidates Test</string>
+</resources>

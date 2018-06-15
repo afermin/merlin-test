@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/warm"
+    app:contentPadding="8dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mTVCurrencySymbol"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_currency_symbol"
+            android:fontFamily="@font/barlow_bold"
+            android:gravity="center"
+            android:maxLength="3"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="USD" />
+
+        <TextView
+            android:id="@+id/mTVCurrencyAbbreviation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/barlow_bold"
+            android:maxLines="1"
+            android:textColor="@color/dark_green"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mTVCurrencySymbol"
+            app:layout_constraintTop_toTopOf="@+id/mTVCurrencySymbol"
+            tools:text="EUR" />
+
+        <TextView
+            android:id="@+id/mTVCurrencyName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_regular"
+            android:maxLines="2"
+            android:textColor="@color/grey"
+            app:layout_constraintEnd_toEndOf="@+id/mTVCurrencyAbbreviation"
+            app:layout_constraintStart_toStartOf="@+id/mTVCurrencyAbbreviation"
+            app:layout_constraintTop_toBottomOf="@+id/mTVCurrencyAbbreviation"
+            tools:text="EUR" />
+
+        <TextView
+            android:id="@+id/mTVValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_bold"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textColor="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/mTVCurrencySymbol"
+            app:layout_constraintStart_toStartOf="@+id/mTVCurrencyAbbreviation"
+            app:layout_constraintTop_toBottomOf="@+id/mTVCurrencyName"
+            tools:text="$14.000" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
