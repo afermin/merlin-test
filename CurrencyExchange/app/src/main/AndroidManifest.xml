@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.merlinjobs.currencyexchange.exchange.ExchangeActivity"
+            android:launchMode="singleTask">
+        </activity>
     </application>
 
 </manifest>

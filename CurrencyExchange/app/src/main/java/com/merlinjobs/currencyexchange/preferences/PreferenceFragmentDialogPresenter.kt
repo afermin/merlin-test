@@ -8,9 +8,11 @@ import com.merlinjobs.currencyexchange.core.use_cases.base.ISingleUseCase
 import com.merlinjobs.currencyexchange.data.DEFAULT_FAVORITE_CURRENCIES
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.merlinjobs.currencyexchange.data.CURRENCY
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableCompletableObserver
 import io.reactivex.observers.DisposableSingleObserver
+import org.apache.commons.lang3.StringUtils
 import javax.inject.Inject
 
 class PreferenceFragmentDialogPresenter : IPreferenceFragmentDialogPresenter {
@@ -77,7 +79,7 @@ class PreferenceFragmentDialogPresenter : IPreferenceFragmentDialogPresenter {
 
         }
         mDisposableBag.add(disposable)
-        mGetExchangeRateUseCase.execute(Pair("USD", Gson().toJson(currencies)), disposable)
+        mGetExchangeRateUseCase.execute(Pair(CURRENCY, StringUtils.join(currencies, ',')), disposable)
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)

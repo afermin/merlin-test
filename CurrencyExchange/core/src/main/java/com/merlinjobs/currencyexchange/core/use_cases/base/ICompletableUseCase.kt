@@ -5,10 +5,10 @@ import io.reactivex.observers.DisposableCompletableObserver
 
 interface ICompletableUseCase<Params> {
 
-
     fun getUseCase(params: Params): Completable
 
     fun execute(params: Params, observer: DisposableCompletableObserver)
 
     fun dispose()
+
 }

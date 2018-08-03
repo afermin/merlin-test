@@ -27,7 +27,6 @@ class ExchangeRatesRepository : IExchangeRatesRepository {
                 .doOnNext {
                     mCurrentExchangeRate = it.rates
                 }
-
     }
 
 

@@ -1,6 +1,6 @@
 package com.merlinjobs.currencyexchange.data.di
 
-import com.merlinjobs.currencyexchange.data.BASEURL
+import com.merlinjobs.currencyexchange.data.BASE_URL
 import com.merlinjobs.currencyexchange.data.DATE_FORMAT
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -21,7 +21,7 @@ class NetworkModule {
     @Provides
     fun provideLoginInterceptor(): HttpLoggingInterceptor {
         val httpLoggingInterceptor = HttpLoggingInterceptor()
-        httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BODY
+        httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BASIC
         return httpLoggingInterceptor
     }
 
@@ -31,7 +31,7 @@ class NetworkModule {
         builder.connectTimeout(30, TimeUnit.SECONDS)
         builder.readTimeout(30, TimeUnit.SECONDS)
         builder.writeTimeout(30, TimeUnit.SECONDS)
-        builder.networkInterceptors().add(httpLoggingInterceptor)
+        builder.addInterceptor(httpLoggingInterceptor)
 
         return builder.build()
     }
@@ -45,9 +45,9 @@ class NetworkModule {
 
     @Provides
     @Singleton
-    fun provideRetroFit(gson: Gson, okHttpClient: OkHttpClient): Retrofit {
+    fun provideRetroFit(gson: Gson, okHttpClient: OkHttpClient, httpLoggingInterceptor: HttpLoggingInterceptor): Retrofit {
         return Retrofit.Builder()
-                .baseUrl(BASEURL)
+                .baseUrl(BASE_URL)
                 .client(okHttpClient)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create(gson))

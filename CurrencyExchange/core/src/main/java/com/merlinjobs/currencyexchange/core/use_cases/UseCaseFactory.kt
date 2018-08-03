@@ -20,6 +20,7 @@ import com.merlinjobs.currencyexchange.core.use_cases.system.CreateLocalStorageU
 import com.merlinjobs.currencyexchange.data.local.models.Currency
 import com.merlinjobs.currencyexchange.data.local.models.ExchangeConversion
 import com.jakewharton.rxbinding2.widget.TextViewAfterTextChangeEvent
+import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
@@ -41,7 +42,7 @@ class UseCaseFactory : IUseCaseFactory {
 
     override val getExchangeRateUseCase: ICompletableUseCase<Pair<String, String>>
         get() {
-            val iterator = GetExchangeRatesUseCase(AndroidSchedulers.mainThread(),
+            val iterator = GetExchangeRatesUseCase(Schedulers.io(),
                     AndroidSchedulers.mainThread())
             mRepostoryComponent.inject(iterator)
             return iterator

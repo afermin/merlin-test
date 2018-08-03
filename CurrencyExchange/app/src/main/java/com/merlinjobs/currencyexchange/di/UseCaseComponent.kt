@@ -16,6 +16,4 @@ interface UseCaseComponent {
 
     fun inject(preferenceDialogPresenter: PreferenceFragmentDialogPresenter)
 
-
-
 }

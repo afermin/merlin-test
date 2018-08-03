@@ -1,6 +1,7 @@
 package com.merlinjobs.currencyexchange.exchange;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +25,6 @@ public class ExchangeRVAdapter extends RecyclerView.Adapter<ExchangeViewHolder> 
     private Map<String, Currency> mCurrencies = new HashMap<>();
 
     private ArrayList<ExchangeConversion> mConversions = new ArrayList<>();
-
 
     public ExchangeRVAdapter(Map<String, Currency> mCurrencies) {
         this.mCurrencies = mCurrencies;
@@ -70,15 +70,14 @@ public class ExchangeRVAdapter extends RecyclerView.Adapter<ExchangeViewHolder> 
 
     public void addConversions(List<ExchangeConversion> conversions) {
         mConversions.addAll(conversions);
-        notifyDataSetChanged();
         sortData();
-
+        notifyDataSetChanged();
     }
 
     public void clear() {
         mConversions.clear();
-        notifyDataSetChanged();
         sortData();
+        notifyDataSetChanged();
     }
 
     public void sortData() {

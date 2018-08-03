@@ -86,7 +86,7 @@ class PreferenceDialogFragment : DialogFragment(), IPreferenceFragmentDialogView
     }
 
     override fun getFavoriteCurrencies(): List<String>? {
-        return (mRVFavoriteCurrency?.adapter as? PreferenceAdapter)?.getFavoritecurrencies()
+        return (mRVFavoriteCurrency?.adapter as? PreferenceAdapter)?.getFavoriteCurrencies()
     }
 
     override fun updateDone() {

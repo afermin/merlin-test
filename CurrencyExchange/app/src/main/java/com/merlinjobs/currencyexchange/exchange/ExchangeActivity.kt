@@ -33,6 +33,8 @@ class ExchangeActivity : AppCompatActivity(), IExchangeActivityView {
 
     override fun initComponents() {
         mRVExchanges?.setHasFixedSize(false)
+        mRVExchanges?.layoutManager = LinearLayoutManager(this)
+
         mETValue?.filters = arrayOf(DecimalDigitsInputFilter(1))
         Single.create<Map<String, Currency>> { emitter ->
             val map = HashMap<String, Currency>()
@@ -41,8 +43,8 @@ class ExchangeActivity : AppCompatActivity(), IExchangeActivityView {
             }
             emitter.onSuccess(map)
         }.subscribe(Consumer<Map<String, Currency>> {
-                    mRVExchanges?.adapter = ExchangeRVAdapter(it)
-                })
+            mRVExchanges?.adapter = ExchangeRVAdapter(it)
+        })
     }
 
 

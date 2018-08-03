@@ -49,4 +49,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
+    //apache
+    implementation 'org.apache.commons:commons-lang3:3.0'
+
+
+    compile project(path: ':data')
+    compile project(path: ':core')
 }

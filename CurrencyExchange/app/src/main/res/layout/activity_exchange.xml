@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="16dp"
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context="com.merlinjobs.currencyexchange.exchange.ExchangeActivity">
-
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/mTILValue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/value_label"
+        android:layout_margin="@dimen/activity_basic_margin"
+        android:inputType="numberDecimal"
         android:textColorHint="@color/red"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,10 +24,10 @@
             android:id="@+id/mETValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
             android:fontFamily="@font/barlow_medium"
             android:inputType="numberDecimal"
             android:textColor="@color/blue"
+            android:imeOptions="actionDone"
             android:textColorHint="@color/dark_blue" />
 
 
@@ -37,6 +37,8 @@
         android:layout_width="0dp"
         android:id="@+id/mRVExchanges"
         android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:padding="@dimen/recycler_basic_padding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

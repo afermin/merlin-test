@@ -1,5 +1,6 @@
 package com.merlinjobs.currencyexchange.preferences
 
+import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -38,8 +39,8 @@ class PreferenceAdapter(private var mCurrenciesList: ArrayList<Currency>,
             holder.mTVCurrencyName.text = mCurrenciesList[position].name
             holder.mTVCurrencySymbol.text = mCurrenciesList[position].symbol
             holder.itemView.setBackgroundColor(if (mFavoritesCurrencies.contains(mCurrenciesList[position].code))
-                holder.itemView.resources.getColor(R.color.red) else
-                holder.itemView.resources.getColor(R.color.warm))
+                ContextCompat.getColor(holder.itemView.context, R.color.red) else
+                ContextCompat.getColor(holder.itemView.context, R.color.warm))
 
             holder.itemView.setOnClickListener {
 
@@ -62,7 +63,7 @@ class PreferenceAdapter(private var mCurrenciesList: ArrayList<Currency>,
         }.reversed())
     }
 
-     fun getFavoritecurrencies():List<String>{
+     fun getFavoriteCurrencies():List<String>{
          return mFavoritesCurrencies
      }
 }
