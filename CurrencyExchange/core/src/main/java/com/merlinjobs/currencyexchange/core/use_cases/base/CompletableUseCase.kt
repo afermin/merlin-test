@@ -1,6 +1,5 @@
 package com.merlinjobs.currencyexchange.core.use_cases.base
 
-import android.util.Log
 import io.reactivex.Completable
 import io.reactivex.Scheduler
 import io.reactivex.disposables.CompositeDisposable

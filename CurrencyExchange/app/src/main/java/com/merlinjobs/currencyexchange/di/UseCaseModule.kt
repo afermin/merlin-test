@@ -1,5 +1,6 @@
 package com.merlinjobs.currencyexchange.di
 
+import android.arch.lifecycle.LiveData
 import android.content.Context
 import android.widget.EditText
 import com.merlinjobs.currencyexchange.core.use_cases.IUseCaseFactory
@@ -10,6 +11,7 @@ import com.merlinjobs.currencyexchange.core.use_cases.base.ISingleUseCase
 import com.merlinjobs.currencyexchange.data.local.models.Currency
 import com.merlinjobs.currencyexchange.data.local.models.ExchangeConversion
 import com.jakewharton.rxbinding2.widget.TextViewAfterTextChangeEvent
+import com.merlinjobs.currencyexchange.exchange.ExchangeModel
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -49,6 +51,12 @@ class UseCaseModule {
         return useCaseFactory.subscribeToCurrencyConversionsUSeCase
     }
 
+    @Provides
+    @Singleton
+    fun providesNewSubscribeToCurrencyConversionUseCase(useCaseFactory: IUseCaseFactory):
+            IObservableUseCase<LiveData<List<ExchangeConversion>>, Any?> {
+        return useCaseFactory.newSubscribeToCurrencyConversionsUSeCase
+    }
 
     @Provides
     @Singleton
@@ -87,5 +95,10 @@ class UseCaseModule {
         return useCaseFactory.saveHAsWacthedFavoriteDialog
     }
 
+    @Provides
+    fun providesExchangeModel(exchangeConversionsUseCase : IObservableUseCase<List<ExchangeConversion>, Any?>,
+            calculateExchangeRateUseCase: ICompletableUseCase<Double>): ExchangeModel {
+        return ExchangeModel(exchangeConversionsUseCase, calculateExchangeRateUseCase)
+    }
 
 }

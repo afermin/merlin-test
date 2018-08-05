@@ -9,6 +9,7 @@ import android.view.animation.LinearInterpolator
 import android.view.animation.RotateAnimation
 import com.merlinjobs.currencyexchange.R
 import com.merlinjobs.currencyexchange.exchange.ExchangeActivity
+import com.merlinjobs.currencyexchange.exchange.NewExchangeActivity
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 import java.util.*
 
@@ -63,7 +64,7 @@ class SplashScreenActivity : AppCompatActivity(), ISplashScreenView {
 
     override fun navigateToNextActivity() {
         mIVIcon?.postDelayed({
-            startActivity(Intent(this, ExchangeActivity::class.java))
+            startActivity(Intent(this, NewExchangeActivity::class.java))
         }, getDelay())
 
     }

@@ -10,6 +10,7 @@ import com.merlinjobs.currencyexchange.core.use_cases.preferences.GetHasWacthedP
 import com.merlinjobs.currencyexchange.core.use_cases.preferences.SaveFavoriteCurrenciesUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.preferences.SaveHasWatchedFavoriteDialog
 import com.merlinjobs.currencyexchange.core.use_cases.system.CreateLocalStorageUseCase
+import com.merlinjobs.currencyexchange.core.use_cases.system.NewSubscribeToCurrencyConversionsUseCase
 import dagger.Component
 import javax.inject.Singleton
 
@@ -24,6 +25,8 @@ interface RepositoryComponent {
     fun inject(subscribeEditTextChangesUseCase: SubscribeEditTextChangesUseCase)
 
     fun inject(subscribeToCurrencyConversionsUseCase: SubscribeToCurrencyConversionsUseCase)
+    
+    fun inject(subscribeToCurrencyConversionsUseCase: NewSubscribeToCurrencyConversionsUseCase)
 
     fun inject(calculateExchangeRateUseCase: CalculateExchangeRateUseCase)
 

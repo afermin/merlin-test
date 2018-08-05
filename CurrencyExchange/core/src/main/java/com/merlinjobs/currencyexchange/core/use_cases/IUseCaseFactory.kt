@@ -1,5 +1,6 @@
 package com.merlinjobs.currencyexchange.core.use_cases
 
+import android.arch.lifecycle.LiveData
 import android.content.Context
 import android.widget.EditText
 import com.merlinjobs.currencyexchange.core.use_cases.base.ICompletableUseCase
@@ -14,6 +15,7 @@ interface IUseCaseFactory {
     val getExchangeRateUseCase: ICompletableUseCase<Pair<String, String>>
     val subscribeToEditTextChangesUseCase: IObservableUseCase<TextViewAfterTextChangeEvent, EditText>
     val subscribeToCurrencyConversionsUSeCase: IObservableUseCase<List<ExchangeConversion>, Any?>
+    val newSubscribeToCurrencyConversionsUSeCase: IObservableUseCase<LiveData<List<ExchangeConversion>>, Any?>
     val calculateExchangeRateUseCase: ICompletableUseCase<Double>
     val createLocalStorageUseCase: ICompletableUseCase<Context>
     val getFavoriteCurrenciesUSeCase: ISingleUseCase<List<String>, Any?>

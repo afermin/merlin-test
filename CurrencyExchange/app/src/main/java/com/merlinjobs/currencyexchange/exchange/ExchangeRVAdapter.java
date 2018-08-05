@@ -59,8 +59,6 @@ public class ExchangeRVAdapter extends RecyclerView.Adapter<ExchangeViewHolder> 
                     "%1$,.2f",
                     mConversions.get(position).getValue()));
         }
-
-
     }
 
     @Override

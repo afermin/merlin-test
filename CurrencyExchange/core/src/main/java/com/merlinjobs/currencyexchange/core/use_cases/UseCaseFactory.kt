@@ -1,15 +1,15 @@
 package com.merlinjobs.currencyexchange.core.use_cases
 
+import android.arch.lifecycle.LiveData
 import android.content.Context
 import android.widget.EditText
+import com.jakewharton.rxbinding2.widget.TextViewAfterTextChangeEvent
 import com.merlinjobs.currencyexchange.core.di.DaggerRepositoryComponent
 import com.merlinjobs.currencyexchange.core.di.RepositoryModule
 import com.merlinjobs.currencyexchange.core.use_cases.base.ICompletableUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.base.IObservableUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.base.ISingleUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.currency.GetCurrenciesUsecase
-import com.merlinjobs.currencyexchange.core.use_cases.system.SubscribeEditTextChangesUseCase
-import com.merlinjobs.currencyexchange.core.use_cases.system.SubscribeToCurrencyConversionsUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.exchange.CalculateExchangeRateUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.exchange.GetExchangeRatesUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.preferences.GetFavoriteCurrenciesUseCase
@@ -17,10 +17,11 @@ import com.merlinjobs.currencyexchange.core.use_cases.preferences.GetHasWacthedP
 import com.merlinjobs.currencyexchange.core.use_cases.preferences.SaveFavoriteCurrenciesUseCase
 import com.merlinjobs.currencyexchange.core.use_cases.preferences.SaveHasWatchedFavoriteDialog
 import com.merlinjobs.currencyexchange.core.use_cases.system.CreateLocalStorageUseCase
+import com.merlinjobs.currencyexchange.core.use_cases.system.NewSubscribeToCurrencyConversionsUseCase
+import com.merlinjobs.currencyexchange.core.use_cases.system.SubscribeEditTextChangesUseCase
+import com.merlinjobs.currencyexchange.core.use_cases.system.SubscribeToCurrencyConversionsUseCase
 import com.merlinjobs.currencyexchange.data.local.models.Currency
 import com.merlinjobs.currencyexchange.data.local.models.ExchangeConversion
-import com.jakewharton.rxbinding2.widget.TextViewAfterTextChangeEvent
-import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
@@ -59,6 +60,15 @@ class UseCaseFactory : IUseCaseFactory {
     override val subscribeToCurrencyConversionsUSeCase: IObservableUseCase<List<ExchangeConversion>, Any?>
         get() {
             val iterator = SubscribeToCurrencyConversionsUseCase(Schedulers.io(),
+                    AndroidSchedulers.mainThread())
+            mRepostoryComponent.inject(iterator)
+            return iterator
+        }
+
+
+    override val newSubscribeToCurrencyConversionsUSeCase: IObservableUseCase<LiveData<List<ExchangeConversion>>, Any?>
+        get() {
+            val iterator = NewSubscribeToCurrencyConversionsUseCase(Schedulers.io(),
                     AndroidSchedulers.mainThread())
             mRepostoryComponent.inject(iterator)
             return iterator

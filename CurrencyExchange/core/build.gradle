@@ -10,7 +10,6 @@ android {
     compileSdkVersion 27
 
 
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 27
@@ -26,6 +25,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    dataBinding {
+        enabled = true
     }
 
 }
@@ -49,6 +51,9 @@ dependencies {
 
     implementation project(':data')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    //lifecycle
+    implementation "android.arch.lifecycle:extensions:$lifecycle_version"
 }
 repositories {
     mavenCentral()

@@ -45,7 +45,7 @@ class NetworkModule {
 
     @Provides
     @Singleton
-    fun provideRetroFit(gson: Gson, okHttpClient: OkHttpClient, httpLoggingInterceptor: HttpLoggingInterceptor): Retrofit {
+    fun provideRetroFit(gson: Gson, okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .client(okHttpClient)

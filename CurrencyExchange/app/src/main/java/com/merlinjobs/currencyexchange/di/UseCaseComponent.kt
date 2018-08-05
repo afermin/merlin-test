@@ -1,6 +1,7 @@
 package com.merlinjobs.currencyexchange.di
 
 import com.merlinjobs.currencyexchange.exchange.ExchangeActivityPresenter
+import com.merlinjobs.currencyexchange.exchange.ExchangeActivityViewModel
 import com.merlinjobs.currencyexchange.preferences.PreferenceFragmentDialogPresenter
 import com.merlinjobs.currencyexchange.splash.SplashScreenPresenter
 import dagger.Component
@@ -13,6 +14,8 @@ interface UseCaseComponent {
     fun inject(splashScreenPresenter: SplashScreenPresenter)
 
     fun inject(exchangeActivityPresenter: ExchangeActivityPresenter)
+
+    fun inject(exchangeActivityViewModel: ExchangeActivityViewModel)
 
     fun inject(preferenceDialogPresenter: PreferenceFragmentDialogPresenter)
 

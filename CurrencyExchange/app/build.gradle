@@ -22,6 +22,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -52,6 +55,11 @@ dependencies {
     //apache
     implementation 'org.apache.commons:commons-lang3:3.0'
 
+    //lifecycle
+    implementation "android.arch.lifecycle:extensions:$lifecycle_version"
+
+    //dataBinding
+    kapt 'com.android.databinding:compiler:3.1.3'
 
     compile project(path: ':data')
     compile project(path: ':core')
