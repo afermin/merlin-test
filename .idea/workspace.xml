@@ -7,35 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3ceedc-75f9-4a28-8d63-2e4a4d38d362" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/.idea/dictionaries/alexanderjosefermingomez.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivityViewModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeModel.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/NewExchangeActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/system/NewSubscribeToCurrencyConversionsUseCase.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/utils/EditTextBindingAdapters.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/utils/SingleLiveEvent.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/res/anim/scaled.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CurrencyExchange/.idea/misc.xml" afterPath="$PROJECT_DIR$/CurrencyExchange/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/.idea/modules.xml" afterPath="$PROJECT_DIR$/CurrencyExchange/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/build.gradle" afterPath="$PROJECT_DIR$/CurrencyExchange/app/build.gradle" />
       <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/di/UseCaseComponent.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/di/UseCaseComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/di/UseCaseModule.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/di/UseCaseModule.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivity.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeRVAdapter.java" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeRVAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivityPresenter.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/IExchangeActivityPresenter.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/IExchangeActivityView.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/NewExchangeActivity.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivity.kt" />
       <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/splash/SplashScreenActivity.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/splash/SplashScreenActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/app/src/main/res/layout/activity_exchange.xml" afterPath="$PROJECT_DIR$/CurrencyExchange/app/src/main/res/layout/activity_exchange.xml" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/build.gradle" afterPath="$PROJECT_DIR$/CurrencyExchange/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/build.gradle" afterPath="$PROJECT_DIR$/CurrencyExchange/core/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/di/RepositoryComponent.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/di/RepositoryComponent.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/IUseCaseFactory.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/IUseCaseFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/UseCaseFactory.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/UseCaseFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/base/CompletableUseCase.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/base/CompletableUseCase.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/system/SubscribeToCurrencyConversionsUseCase.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/system/SubscribeToCurrencyConversionsUseCase.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/data/build.gradle" afterPath="$PROJECT_DIR$/CurrencyExchange/data/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/data/src/main/java/com/merlinjobs/currencyexchange/data/di/NetworkModule.kt" afterPath="$PROJECT_DIR$/CurrencyExchange/data/src/main/java/com/merlinjobs/currencyexchange/data/di/NetworkModule.kt" />
-      <change beforePath="$PROJECT_DIR$/CurrencyExchange/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/CurrencyExchange/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +41,31 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="173">
+              <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="34" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="156">
+                <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExchangeActivityViewModel.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivityViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -86,34 +91,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_exchange.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_exchange.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CurrencyExchange/app/src/main/res/layout/activity_exchange.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkModule.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/src/main/java/com/merlinjobs/currencyexchange/data/di/NetworkModule.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="e#49#559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>retrofit</find>
+      <find>HttpLoggingInterceptor</find>
+      <find>inter</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="exchange_to_mvvm" />
       </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CurrencyExchange/core/src/main/java/com/merlinjobs/currencyexchange/core/use_cases/UseCaseFactory.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -139,6 +168,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,14 +178,188 @@
               <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyexchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyexchange" type="462c0819:PsiDirectoryNode" />
+              <item name="exchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyexchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyexchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merlin-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merlin-test" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrencyExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="merlinjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="currencyexchange" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,19 +514,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -329,11 +537,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -348,22 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CurrencyExchange/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CurrencyExchange/core/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,26 +873,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CurrencyExchange/core/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -721,12 +897,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CurrencyExchange/app/src/main/res/layout/activity_exchange.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/src/main/java/com/merlinjobs/currencyexchange/data/di/NetworkModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#49#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrencyExchange/data/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="34" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="156">
+            <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CurrencyExchange/app/src/main/java/com/merlinjobs/currencyexchange/exchange/ExchangeActivityViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding />
         </state>
       </provider>

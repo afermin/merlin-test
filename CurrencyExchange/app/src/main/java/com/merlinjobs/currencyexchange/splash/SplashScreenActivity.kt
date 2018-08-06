@@ -5,14 +5,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.animation.Animation
-import android.view.animation.LinearInterpolator
-import android.view.animation.RotateAnimation
+import android.view.animation.AnimationUtils
 import com.merlinjobs.currencyexchange.R
 import com.merlinjobs.currencyexchange.exchange.ExchangeActivity
-import com.merlinjobs.currencyexchange.exchange.NewExchangeActivity
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 import java.util.*
-
 
 class SplashScreenActivity : AppCompatActivity(), ISplashScreenView {
 
@@ -36,17 +33,8 @@ class SplashScreenActivity : AppCompatActivity(), ISplashScreenView {
 
     override fun onStart() {
         super.onStart()
-        val rotate = RotateAnimation(0f, 360f,
-                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f)
-        rotate.duration = 500
-        rotate.repeatCount = 100
-        rotate.repeatMode = 1
-        rotate.interpolator = LinearInterpolator()
-
-
-        mIVIcon?.startAnimation(rotate)
-
-
+        val anim : Animation = AnimationUtils.loadAnimation(this, R.anim.scaled)
+        mIVIcon?.startAnimation(anim)
     }
 
 
@@ -64,7 +52,7 @@ class SplashScreenActivity : AppCompatActivity(), ISplashScreenView {
 
     override fun navigateToNextActivity() {
         mIVIcon?.postDelayed({
-            startActivity(Intent(this, NewExchangeActivity::class.java))
+            startActivity(Intent(this, ExchangeActivity::class.java))
         }, getDelay())
 
     }

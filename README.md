@@ -16,15 +16,23 @@ The applications has some compilation errors as well as runtime errors which you
 3. Once you have the application running, implement the MVVM design pattern on any view / screen you wish.
 4. Please describe your technical decisions that allow us understand your new proposal. You can use the README.md file
 
-# Nice to have
+# Solution
 
-1. Unit tests. Implement unit testing at least on 3 elements of the application, one on each layer. The more important the element the better.
+**Errors fixed**
+```
+- Core module and data module were added to App module
+- Few layouts were fixed
+- Api version was updated
+- The GetExchangeRatesUseCase was subscribed to Schedulers.io()
+```
 
-# Bonus
+**ExchangeActivity was migrated to MVVM**
+```
+I tried to migrate ExchangeActivity as it was possible without changed significantly the project structure
+- I used DataBinding to observe textChanged on the ViewModel
+- I used LiveData to observe the ListConversionExchange on ExchangeActivity (View)
 
-1. UI/UX proposals
-2. UI tests implementation
-
+```
 
 
 
